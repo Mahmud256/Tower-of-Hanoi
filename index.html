@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tower of Hanoi</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tower of Hanoi</h1>
+  <p>Move all disks from Tower 1 to Tower 3</p>
+
+  <div class="game">
+    <div id="tower1" class="tower">
+      <div class="rod"></div>
+      <div class="disk" data-size="4" style="width: 140px;"></div>
+      <div class="disk" data-size="3" style="width: 120px;"></div>
+      <div class="disk" data-size="2" style="width: 90px;"></div>
+      <div class="disk" data-size="1" style="width: 60px;"></div>
+    </div>
+
+    <div id="tower2" class="tower">
+      <div class="rod"></div>
+    </div>
+
+    <div id="tower3" class="tower">
+      <div class="rod"></div>
+    </div>
+
+    <div id="tower4" class="tower">
+      <div class="rod"></div>
+    </div>
+  </div>
+
+  <p id="message"></p>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

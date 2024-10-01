@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .game {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .tower {
+    width: 150px;
+    height: 300px;
+    border: 2px solid #000;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .rod {
+    width: 10px;
+    height: 250px;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .disk {
+    margin-bottom: 5px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #tower1 .disk {
+    background-color: lightblue;
+  }
+  
+  #tower2 .disk {
+    background-color: lightgreen;
+  }
+  
+  #tower3 .disk {
+    background-color: lightcoral;
+  }
+  
+  #tower4 .disk {
+    background-color: lightpink;
+  }
+  
